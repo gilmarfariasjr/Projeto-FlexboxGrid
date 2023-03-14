@@ -37,13 +37,12 @@
     }
 
     .logo{
-        width: 200px;
+        width: 300px;
     }
 
     .butao{
-        font-size: 14px;
-        padding: 5px;
-        
+        font-size: 17px;
+        padding: 10px;
     }
 }
     

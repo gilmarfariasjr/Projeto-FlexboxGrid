@@ -13,12 +13,12 @@
 .cabecalho{
     background-color: black;
     text-align: center;
-    height: 65px;
+    height: 70px;
     padding: 10px;
 }
 
 .logo{
-    width: 150px;
+    width: 200px;
 }
 
 .butao{
@@ -27,7 +27,7 @@
     border: none;
     padding: 0px 10px;
     cursor: pointer;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 @media(min-width:630px){

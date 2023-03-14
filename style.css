@@ -13,7 +13,7 @@
 .cabecalho{
     background-color: black;
     text-align: center;
-    height: 60px;
+    height: 65px;
     padding: 10px;
 }
 
@@ -27,5 +27,23 @@
     border: none;
     padding: 0px 10px;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 11px;
 }
+
+@media(min-width:630px){
+    .cabecalho{
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .logo{
+        width: 200px;
+    }
+
+    .butao{
+        font-size: 14px;
+        padding: 5px;
+        
+    }
+}
+    

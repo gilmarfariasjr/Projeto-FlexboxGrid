@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 *{
     margin: 0px;
@@ -77,6 +78,50 @@ h1{
     text-align: justify;
 }
 
+.asid{
+    display: block;
+    width: 270px;
+    gap: 15px;
+    background-color: rgb(80, 80, 80);
+}
+
+.imagens{
+    width: 80%;
+    margin: 10%;
+    border-radius: 10px;
+}
+
+.textolateral{
+    font-family: 'Roboto';
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.esporteslaterais{
+    font-family: 'Roboto';
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.foote{
+    background-color: black;
+    text-align: center;
+    height: 90px;
+    padding: 10px;
+}
+
+.logofoote{
+    width: 150px;
+}
+
+.textofoote{
+    font-family: 'Roboto';
+    color:rgb(194, 194, 194);
+    font-size: 20px;
+    text-decoration: none;
+}
 
 @media(min-width:630px){
     .cabecalho{
